@@ -1,0 +1,34 @@
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+div {
+    top: 300px;
+    display: inline;
+    left: 20%;
+    color: rgb(57, 34, 100);
+}
+img, div, .ram {
+    position: absolute;
+}
+img {
+    left: 45%;
+    top: 100px;
+}
+p {
+    max-width: 400px;
+    color: rgb(86, 60, 134);
+}
+.ram {
+    background-color: azure;
+    width: 65%;
+    height: 600px;
+    top: 98px;
+    left: 15%;
+    border: 4px rgb(57, 34, 100) solid;
+}
